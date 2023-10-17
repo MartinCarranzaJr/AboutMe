@@ -7,9 +7,8 @@ body {
 /* Estilo de imagen */
 
 .img-fluid {
-    height: 75em;
-    margin-left: 100px;
     border-radius: 15px;
+    max-width: 100%;
 }
 
 /* Estilo de la tarjeta */
@@ -64,5 +63,5 @@ a.text-dark:hover {
 
 .custom-btn {
     display: inline-block;
-    width: 25%;
+    width: 20%;
 }
