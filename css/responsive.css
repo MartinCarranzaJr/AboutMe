@@ -1,0 +1,47 @@
+/* Estilos para móvil pequeño (360 x 640 px) */
+@media only screen and (max-width: 360px) {
+    .img-fluid {
+        height: 50em;
+        margin-left: 10px;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-subtitle {
+        font-size: 1rem;
+    }
+}
+
+/* Estilos para móvil medio (375 x 667 px) */
+@media only screen and (max-width: 375px) {
+    .img-fluid {
+        height: 55em;
+        margin-left: 15px;
+    }
+}
+
+/* Estilos para smartphone grande (720 x 1280 px) */
+@media only screen and (max-width: 720px) {
+    .img-fluid {
+        height: 65em;
+        margin-left: 50px;
+    }
+}
+
+/* Estilos para ordenador portátil medio (1366 x 768 px) */
+@media only screen and (max-width: 1366px) {
+    /* Aquí podrías ajustar estilos si es necesario, pero Bootstrap ya proporciona buena responsividad para estas resoluciones */
+}
+
+/* Estilos para ordenador de escritorio medio (1440 x 900 px) */
+@media only screen and (max-width: 1440px) {
+    /* Igualmente, puedes añadir estilos específicos si lo ves necesario */
+}
+
+/* Estilos para PC de escritorio grande (1920 x 1080 px) */
+@media only screen and (max-width: 1920px) {
+    /* Ajustes específicos si es necesario */
+}
+
